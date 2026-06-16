@@ -1,0 +1,13 @@
+env/
+venv/
+.venv/
+__pycache__/
+*.pyc
+/Dataset
+Dataset/
+/Dataset/
+*.jpeg
+*.png
+*.jpg
+*.csv
+*.xlsx

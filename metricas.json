@@ -1,0 +1,23 @@
+{
+  "metricas": {
+    "r2": -0.0058,
+    "rmse": 224.8877,
+    "rmse_perc": 8.7622,
+    "mape": 7.7199,
+    "bias": -22.8898
+  },
+  "hiperparametros": {
+    "n_estimators": 1000,
+    "max_depth": 19,
+    "min_samples_split": 4,
+    "min_samples_leaf": 5
+  },
+  "outlier_removal": {
+    "metodo": "IQR de Tukey iterativo (pré-treinamento)",
+    "fator_iqr": 0.2,
+    "passagens": 2,
+    "limite_inferior": 2204.75,
+    "limite_superior": 2927.52,
+    "amostras_removidas": 19
+  }
+}
